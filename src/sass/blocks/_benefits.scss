@@ -1,0 +1,46 @@
+.benefits{
+    padding: 70px 0 78px 0;
+    background-color: #f6f6f6;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block{
+        width: 240px;
+        margin-top: 65px;
+    }
+    &__logo{
+        display: block;
+        margin: 0 auto;
+    }
+    &__title{
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__subtitle{
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        
+        span{
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+    &__logo{
+        &_animation{
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.reviews{
+    padding: 103px 0 71px 0;
+    &__block{
+        display: flex;
+        width: 883px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        &:nth-child(3){
+            margin-bottom: none;
+        }
+    }
+     &-info{
+          margin-left: 62px;
+         &__name{
+             color: #0d0d0d;
+             font-size: 18px;
+             font-weight: 700;
+             margin-bottom: 10px;
+         }
+         &__marathon{
+            margin-bottom: 19px;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+         }
+        &__descr{
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+        }
+     }
+}

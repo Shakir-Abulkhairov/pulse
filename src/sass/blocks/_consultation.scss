@@ -1,0 +1,15 @@
+.consultation{
+    padding: 100px 0 92px 0;
+    background: url(../images/bg2.jpg) center (center/cover) no-repeat;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+
+    &__descr{
+        margin-top: 80px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
