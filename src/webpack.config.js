@@ -4,7 +4,7 @@ let path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './js/script.js',
+  entry: './src/js/script.js',
   resolve:{
     extensions:['.js','.jsx']
   },

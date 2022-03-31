@@ -13,12 +13,12 @@
          processIsolation="false">
     <testsuites>
         <testsuite name="PHPMailer Tests">
-            <directory>./test/</directory>
+            <directory>./src/test/</directory>
         </testsuite>
     </testsuites>
     <filter>
         <blacklist>
-            <directory suffix=".php">./extras</directory>
+            <directory suffix=".php">./src/extras</directory>
         </blacklist>
     </filter>
     <groups>
